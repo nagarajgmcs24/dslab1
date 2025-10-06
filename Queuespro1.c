@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define size 5
+#define size 3
 
 int queue[size];
 int front = -1, rear = -1;
@@ -62,4 +62,5 @@ int main(){
             printf("Invalid choice!\n");
         }
     }
+
 }
